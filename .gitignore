@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+
+# deployment metadata
+.vercel/
+
+# private environment variables; configure these in the hosting dashboard
+.env
+.env.*
+!.env.example
+
+# logs and local files
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.DS_Store
+coverage/
